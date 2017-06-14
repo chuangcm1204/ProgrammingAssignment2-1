@@ -7,10 +7,10 @@
 
 makeCacheMatrix <- function(x = matrix()) {
         inverseofX=solve(x)
-        m<-null
+        m<-NULL
         set<<-function(y){
         x<<-y
-        m<<-null
+        m<<-NULL
 
 }
 
