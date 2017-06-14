@@ -34,11 +34,11 @@ cacheSolve <- function(x, ...) {
         inverseofX<- x$getInverse()
         if(!is.null(inverseofX)){
         
-        return(inverseofX)}
+        return(inverseofX)
 }
 
 data<-x$get()
 inverseofX<-solve(data)
 x$setInverse(inverseofX)
 return(inverseofX)
-
+}
